@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.cdnfonts.com/css/tesla-2');
+
+
+section {
+    color: white;
+    background-color: black;
+}
+
+.order-container-page {
+    overflow: hidden;
+}
+
+.order-image-card {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-image-car-bg {
+    background: radial-gradient(circle at center top, rgb(255, 39, 39) 5%, rgb(0, 0, 0) 90%);  width: 70%;
+    height: 140%;
+    width: 100%;
+    position: absolute;
+    transform: translateY(50px);
+}
+
+
+.order-title {
+    font-size: 25px;
+
+    text-align: center;
+    font-weight: 600;
+    margin: 5px 0 20px 0;
+}
+
+.car-speed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-center p:nth-child(1) {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.text-center p:nth-child(1) span{
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.text-center p:nth-child(2) {
+    color: rgb(231, 231, 231);
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Buttons Model */
+.buttons-model button {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer; 
+    width: 80px;
+    margin: 20px 0 20px 0;
+}
+
+.button-type {
+    border: none;
+}
+/* 
+.Lease, .Finance {
+    border: none;
+}
+
+.button-type:nth-child(1) {
+    border-bottom: 2px solid white;
+}
+ */
+
+ .showCard-desc {
+    margin: auto;
+ }
+
+ .button-type.active {
+    border-bottom: 2px solid white;
+  }
+
+  .all-button {
+    background-color: transparent;
+    color: white;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 3px;
+  }
+
+
+  

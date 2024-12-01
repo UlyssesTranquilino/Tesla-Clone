@@ -1,0 +1,44 @@
+
+
+@media (min-width: 991px) {
+
+    .order-car-laptop {
+        width: 100%;
+
+    }
+    .order-car-laptop {
+        display: flex;
+        height: 100vh;
+        width: 99%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .left-order {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-order {
+        margin: 50% 0 0 0;
+    }
+
+    .hold-scroll-right {
+        margin: 0;
+        height: 100vh; /* Maximum height of 100% of viewport height */
+        height: 100vh;  
+        overflow-y: auto;
+        scrollbar-width: none;
+        padding: 0;
+    }
+
+    /*PAINT*/
+    .title-paint {
+        margin: 4% 0 0 0;
+    }
+
+    .tow-hitch {
+        transform: translateY(30%);
+    }
+}

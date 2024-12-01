@@ -1,0 +1,32 @@
+
+
+
+.order-image-car-bg {
+    background: radial-gradient(circle at center top, rgb(255, 39, 39) 5%, rgb(0, 0, 0) 90%);  width: 70%;
+    height: 140%;
+    width: 100%;
+    position: absolute;
+    transform: translateY(50px);
+}
+
+
+
+.car-sideView-bg {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0, 38, 255) 64%, rgb(0, 2, 126) 86%, rgba(0,0,0,1) 100%);
+}
+
+.car-Wheel {
+    width: 100%;
+    height: 40%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(129, 129, 129) 24%, rgb(27, 27, 27) 76%, rgba(0,0,0,1) 100%);
+}
+
+
+
+.tow-image {
+    height: 50%;
+    margin: 10% 0 0 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(48, 48, 48) 24%, rgb(5, 5, 5) 76%, rgba(0,0,0,1) 100%);
+}

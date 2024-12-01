@@ -1,0 +1,839 @@
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.main-section col {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.adjust-image {
+    height: 10px;
+}
+
+
+.end-main {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+div.col {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .main-section {
+    background-image: url("../../Images/Model 3/Model 3 mobile.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    transform: translateY(-5%);
+
+  }
+
+  .caption-img {
+    font-size: 80%;
+    margin: 8% 0 20% 8%;
+  }
+
+  .caption-img h3 {
+    font-weight: 600;
+    font-size: 140%;
+  }
+
+
+  .car-title {
+    text-align: center;
+    font-size: 300%;
+    font-weight: 600;
+  }
+  
+  .car-desc {
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .apr {
+    padding: 0 5% 0 5%;
+  }
+  .car-desc p:nth-child(1) {
+    font-size: 190%;
+    margin: 0 0 5px 0;
+  }
+
+  .car-desc p:nth-child(2) {
+    font-size: 100%;
+  }
+
+  .car-details {
+    margin: 120px 0;
+    font-size: 90%;
+    
+  }
+
+  .car-stats {
+    transform: translate(0, -50%);
+  }
+
+  .car-stats .row{
+    font-size: 76%;
+    margin: 300px 50px 0 50px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .car-stats .row .col h1 {
+    font-size: 150%;
+    font-weight: 600;
+  }
+
+  .button-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .order-now-model3 {
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 90, 255);
+    margin: 4px;
+    font-size: 85%;
+  }
+
+  .demo-drive-model3 {
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    font-size: 85%;
+  }
+
+
+
+
+  /* Second Section */
+  
+  .second-section {
+    background-image: url("../../Images/Model 3/Model 3 Second.png");
+    height: 950px;
+    background-position: center;
+    background-size: cover;
+    margin: -50px 0 0 0;
+  }
+
+  .distance-details {
+    margin: 5%;
+    transform: translateY(25%);
+    width: 85%;
+    padding: 5%;
+    color: black;
+  }
+
+  .distance-details h1 {
+    font-size: 150%;
+    font-weight: 600;
+  }
+  .distance-details p{
+    font-size: 85%;
+  }
+  
+
+  /* Third Section */
+
+  .third-section {
+    height: auto;
+    width: 100%;
+  }
+
+  .third {
+    padding: 9%;
+    font-size: 85%;
+  }
+
+  .caption-model3-buttons h1{
+    font-size: 170%;
+  }
+  .background-video-model3{
+    height: 600px;
+  }
+
+  .third-section div.row {
+    margin: 0px;
+    padding: 0;
+  }
+
+  .vid-third {
+    height: 20rem;
+    width: 104vw;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .vid-interior {
+    height:50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vid-interior video {
+    height: 45vh;
+    width: 250%;
+  }
+
+
+  .vid-third .two-newColors {
+    width: 200%;
+    height: 100%;
+  }
+
+  .upgraded-wheels {
+    width: 230%;
+    height: 100%;
+  }
+
+  
+
+
+  .two-new-colors-btn {
+    width: 15px;
+    height: 15px;
+    border: 0;
+    border-radius: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .upgraded-wheels-btn {
+    width: 15px;
+    height: 15px;
+    border: 0;
+    border-radius: 100%;
+    margin: 0 0 20px 5px;
+  }
+
+  .all-new-interior {
+    margin: 80px 0 130px 0;
+  }
+
+  .all-new-interior h1 {
+    font-size: 170%;
+  }
+
+.background-video-model-interior {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+  .fourth-section {
+    height: auto;
+  }
+
+    .carousel-vid {
+      height: 600px;
+      width: 100%;
+    }
+
+  .carousel-indicators {
+    transform: translateY(250%);
+  }
+
+  .carousel-indicators li {
+    width: 200px;
+  }
+
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-caption {
+    text-align: left;
+    width: 90%;
+    transform: translate(-15%, 30%);
+    margin: 0 0 20px 0;
+    font-size: 85%;
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .carousel-caption h3 {
+    font-size: 150%;
+  }
+
+  .background-video-model4 {
+    width: 100%;
+  }
+
+  .cabin {
+    padding: 8%;
+    font-size: 85%;
+    color: black;
+    font-weight: 500;
+  }
+
+  .cabin h3 {
+    font-size: 160%;
+    font-weight: 650;
+  }
+
+  .img-cabin {
+    background-image: url('../../Images/Model 3/Cabin.png');
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .sixth-section {
+    height: 670px;
+    background-color: white;
+    color: black;
+  }
+
+
+  .seventh-section {
+    margin: -10% 0 0 0;
+    padding: 10% 0;
+    background-color: white;
+    color: black;
+  }
+
+  .img-tech img {
+    width: 80%;
+  }
+
+  .phone-img-tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tech {
+    padding: 10%;
+    font-size: 75%;
+    font-weight: 500;
+    margin: 15% 0 0 0;
+  }
+
+  .tech h3 {
+    font-weight: 600;
+  }
+  .cabin h3 {
+    font-size: 150%;
+    font-weight: 650;
+  }
+
+  .elegant-tech-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .elegant-tech-img img {
+    width: 95%;
+  }
+
+
+  .phone-tech {
+    padding: 10%;
+    font-size: 75%;
+    font-weight: 500;
+    margin: 10% 0 0 0;
+  }
+
+  .phone-tech h3 {
+    font-size: 160%;
+    font-weight: 650;
+  }
+
+  .eighth-section {
+    height: 900px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+
+  .eight-position-details {
+    transform: translate(0, 600%);
+  }
+
+  .info-eighth-position {
+    position: absolute;
+  }
+
+  .info-eighth-position p {
+    padding: 0 20% 0 0;
+  }
+
+  .model3-buttons-content-mode {
+    transform: translate(8%, 1000%);
+  }
+
+  .model3-buttons-mode {
+    font-size: 85%;
+  }
+  .model3-buttons-mode h1 {
+    font-size: 170%;
+  }
+
+  .title-eighth-section{
+    margin: 3% 0 0 5%;
+    padding: 8%;
+  }
+
+  .title-eighth-section h1 {
+    font-size: 140%;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+  }
+
+
+  .ninth-section {
+    height: 740px;
+    margin: 25% 0 10% 0;
+  }
+
+  .charging-title-section {
+    margin: 6% 0 15% 6%;
+    font-size: 85%;
+  }
+
+  .charging-title-section h3 {
+    font-weight: 600;
+  }
+
+  .row-image-section {
+    height: 100px;
+    display: flex;
+    margin: 8% 5%;
+  }
+
+  .row-image-section div {
+    padding: 1%;
+    width: 100%;
+    cursor: pointer;
+  }
+
+
+
+  .row-image-section h1 {
+    font-size: 100%;
+    font-weight: 600;
+  }
+
+  .row-image-section p {
+    font-size: 70%;
+  }
+
+  .line {
+    width: 100%;
+    height: 2px;
+    margin: 0 0 15px 0;
+    opacity: 1;
+  }
+
+  .active-image-section {
+    margin: -7% 0;
+    padding: 5%;
+  }
+  .active-image-section img {
+    width: 100%;
+  }
+
+  .tenth-section {
+    height: auto;
+    margin: -25% 0 40% 0;
+  }
+
+  .demo-title-section {
+    font-size: 85%;
+    padding: 7%;
+
+  }
+
+  .demo-title-section h3 {
+    font-weight: 600;
+    font-size: 160%;
+  }
+
+  .form-group {
+    padding: 6%;
+  }
+
+  .form-group label {
+    font-weight: 600;
+    font-size: 80%;
+  }
+  
+  .form-group input {
+    background-color: rgb(77, 77, 77);
+    border-color: rgb(34, 34, 34);
+  }
+
+  .submit-zip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -3% 0;
+  }
+
+  .submit-zip button {
+    width: 25%;
+    font-weight: 600;
+    font-size: 80%;
+    border-radius: 3px;
+    border: 0;
+    height: 30px;
+    color: white;
+    background-color: rgb(25, 79, 255);
+  }
+
+  .zip-image {
+    margin: 8% 0;
+    padding: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .zip-image img{
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .engineered-title-section {
+    padding: 8%;
+    margin: 20% 0;
+    font-size: 85%;
+  }
+
+  .engineered-image {
+    margin: 8% 0 -8% 0;
+    padding: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .engineered-image img {
+    width: 145%;
+  }
+
+  .engineered-title-section h3 {
+    font-weight: 600;
+    font-size: 160%;
+    margin: 0 0 6% 0;
+  }
+
+  .parts-section {
+    position: absolute;
+  }
+
+  .rigid {
+    transform: translate(70%, -150%);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+  }
+
+  .impact {
+    transform: translate(-80%, -70%);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+  }
+
+  .parts-section h3 {
+    font-size: 90%;
+    transform: translate(10%, -500%);
+    font-weight: 600;
+    opacity: 1;
+  }
+
+  .rigid .line-rigid {
+    height: 100px;
+    width: 3px;
+    background-color: white;
+  }
+
+  .line-features {
+    opacity: 0;
+  }
+
+
+
+  .impact .line-rigid {
+    height: 100px;
+    width: 3px;
+    background-color: white;
+  }
+
+  .roll .line-rigid {
+    height: 100px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+    border: 3px solid red;
+    
+  }
+
+
+  .twelfth-section {
+    margin: 0% 0 0 0;
+  }
+
+  .arrive-image img {
+    width: 100%;
+  }
+
+  .features-refresh {
+  }
+
+  .twelfth-section .arrive-refresh{
+    padding: 6%;
+    transform: translateY(-20%);
+  }
+
+  .line-rigid-1, .line-rigid-2, .line-rigid-3 {
+    height: 140px;
+    width: 3px;
+    background-color: white;
+  }
+
+  .roll h3 {
+    transform: translate(10%, 290%);
+    position: absolute;
+    opacity: 1;
+  }
+
+  .roll {
+    transform: translate(50%, 100%);
+    width: 100px;
+    height: 100px;
+  }
+
+
+  .line-rigid-3 {
+    transform: rotate(180deg);
+    width: 3px;
+    background-color: white;
+    position: absolute;
+  }
+  
+
+
+  .thirteenth-section {
+    margin: 40% 0 0 0;
+  }
+
+  .model3-specs h1{
+    font-size: 140%;
+    font-weight: 600;
+  }
+
+  .features-refresh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .features-refresh div {
+    margin: 3%;
+    font-size: 80%;
+    font-weight: 600;
+    transform: translateY(-140%);
+  }
+
+  .features-refresh div h3 {
+    font-weight: 700;
+    font-size: 140%;
+  }
+
+  .thirteenth-section .distance {
+    padding: 8%;
+  }
+
+  .drive-title, .dimension, .warranty, .charging, .other{
+    font-size: 80%;
+  }
+
+  .drive-title h1, .dimension h1, .warranty h1, .charging h1, .other h1 {
+    margin: 0 0 10% 0;
+    font-size: 140%;
+    font-weight: 600;
+  }
+
+  .arrive-refresh h3 {
+    font-size: 120%;
+    font-weight: 600;
+  }
+
+  .arrive-refresh p {
+    font-size: 80%;
+    margin: 5% 0;
+  }
+
+
+
+
+
+
+
+  .col-specs h3 {
+    font-size: 105%;
+  }
+
+  .col-specs p {
+    margin: 0 0 3px 0;
+    color: rgb(151, 151, 151);
+  }
+
+  .col-specs {
+    margin: 0 0 15% 0;
+  }
+
+  .col-specs img {
+    width: 200%;
+  }
+
+  .specs-button {
+    display: flex;
+    margin: 15% 0 15% 0;
+  }
+
+  .specs-button button {
+    font-size: 70%;
+    font-weight: 600;
+    width: 100%;
+    padding: 4%;
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+    border: none;
+  }
+
+.fourteenth-section {
+  height: 90vh;
+  background-image: url("../../Images/Model 3/Model 3 Order mobile.png");
+  background-position: center;
+  background-size: cover;
+  margin: -15% 0 0 0;
+}
+
+.order-model3 {
+  transform: translateY(-215%);
+  height: 15vh;
+  font-family: montserrat;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 85%;
+  border: 0;
+  border-radius: 3px;
+  height: 35px;
+  margin: 2%;
+  font-size: 75%;
+  font-weight: 600;
+  color: white;
+}
+
+.buttons button:nth-child(1) 
+{
+  background-color: rgb(76, 135, 255);
+}
+
+.buttons button:nth-child(2) 
+{
+  background-color: rgb(51, 51, 51);
+}
+
+.model3-order h1 {
+  font-weight: 600;
+}
+
+.model3-order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 75%;
+  padding: 10% 10% 0 10%;
+  font-weight: 500;
+  margin: 20% 0 0% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.order-now-button {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: none !important;
+}
+
+.order-now-button button {
+  border: 0;
+  border-radius: 3px;
+  width: 70%;
+  margin: 10%;
+  height: 35px;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  font-size: 90%;
+  font-weight: 550;
+  opacity: 0;
+  /* transform: translateY(2000%); */
+}
+
+.order-active {
+  background-color: red;
+}

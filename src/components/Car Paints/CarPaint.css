@@ -1,0 +1,472 @@
+.carPaint {
+    margin: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-sideView {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.order-img{
+    margin: 105px 0 30px 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.sideView {
+    width: 90%;
+    margin: 10% 0 -5% 0;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.car-sideView-bg {
+    width: 100%;
+    height: 10%;
+    z-index: 0;
+    position: absolute;
+    transform: translateY(50%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 38, 255) 64%, rgba(43,0,0,1) 86%, rgba(0,0,0,1) 100%);
+}
+
+/* PAINT */
+
+.title-paint {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin: 25% 0 0 0;
+}
+
+.paint-section {
+    margin: 44% 0 0 0;
+}
+
+.paint-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 20px 0;
+}
+
+.paint-buttons button {
+    background-color: transparent;
+    border: none;
+}
+
+.paint-buttons button img {
+    width: 45px;
+}
+
+.paint-title-name {
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+
+.paint-title-name p {
+    margin: 3px;
+    font-size: 13px;
+}
+
+.paint-title-name p:nth-child(1) {
+    font-weight: 600;
+}
+
+/* WHEEL */
+.car-Wheel {
+    width: 100%;
+    height: 40%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(124,0,0,1) 24%, rgba(43,0,0,1) 76%, rgba(0,0,0,1) 100%);
+}
+
+.car-Wheel img{
+    float: right;
+    width: 90%;
+}
+
+.wheel-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 25px 0;
+}
+
+.wheel-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.wheel-buttons button {
+    border: none;
+    background: transparent;
+    margin: 0;
+}
+.wheel-buttons img {
+    width: 58px;
+}
+
+.wheel-desc {
+    margin: 25px 0 35px 0;
+}
+
+.wheel-desc p:nth-child(1) {
+    font-weight: 600;
+}
+
+.wheel-desc p {
+    text-align: center;
+    margin: 3px;
+    font-size: 11px;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learn-more button {
+    border-radius: 3px;
+    width: 130px;
+    height: 28px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 0;
+    margin: 0 0 15% 0;
+    
+}
+
+/* INTERIOR */
+.interior {
+    margin: 70px 0 0 0;
+}
+.interior-img img {
+    width: 100%;
+}
+
+.interior-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600; 
+    margin: 35px;
+}
+
+.interior-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interior-buttons button {
+    background: none;
+    border: 0;
+    margin: -5px;
+}
+
+.interior-buttons button img{
+    width: 60px;
+    margin: 0;
+}
+
+.interior-desc {
+    text-align: center;
+    margin: 30px;
+}
+
+.interior-desc .title {
+    font-weight: 600;
+}
+
+.interior-desc p {
+    margin: 3px;
+    font-size: 13px;
+}
+
+.feature-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-details button {
+    border-radius: 3px;
+    width: 145px;
+    height: 28px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 0;
+    margin: 0 0 75px 0;
+}
+
+/* SELF DRIVING */
+.self-driving video {
+    width: 100%;
+}
+
+.self-driving-desc {
+    font-size: 12px;
+    width: 80%;
+    margin: auto;
+}
+
+.self-driving-desc p {
+    margin: 2px;
+}
+
+.self-driving-title {
+    width: 80%;
+    margin: 30px auto 10px auto;
+}
+
+.self-driving-desc h2 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.self-driving-desc .price {
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.self-driving-desc ul {
+    margin: 10px 0 40px -10px;
+}
+
+.self-driving-desc li {
+    margin: 8px;
+}
+
+.self-driving .buttons {
+    width: 86%;
+    margin: 25px auto 25px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.self-driving .buttons button {
+    width: 150px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 0;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px;
+    height: auto;
+
+}
+
+.self-driving .buttons button:nth-child(1) {
+    color: white;
+    background-color: #3164f0;
+}
+
+.self-driving {
+    margin: 0 0 10% 0;
+}
+
+
+/* CHARGING */
+.charging-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.charging {
+    font-size: 13px;
+    transform: translateY(10%);
+}
+
+.charging-desc {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-size: 13px;
+
+}
+.svg-icon {
+    width: 25px;
+    margin: 5px;
+}
+
+.charging-desc p {
+    margin: 0px;
+}
+
+.charging-check-box {
+    font-weight: 600;
+    margin: 0;
+    padding: 8px;
+}
+
+.charging-check-box input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checkbox-container {
+    display: flex;
+    height: 40px;
+}
+
+.checkbox-container input {
+    margin: 0 15px 0 0;
+}
+
+.charging-check-box div {
+    display: flex;
+    margin: 0 5px 0 0;
+}
+
+.charging-check-box .learn-more button {
+    border-radius: 3px;
+    width: 130px;
+    height: 28px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 0;
+    margin: 20px 0 35px 0;
+}
+
+/* ACCESSORIES */
+.accessories {
+    margin: -60px auto;
+    font-size: 13px;
+}
+
+.accessories-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin: 65px 0 25px 0;
+}
+
+/* ORDER NOW */
+.order-your {
+    transform: translateY(10%);
+}
+.est-delivery {
+    text-align: center;
+}
+
+
+.order-now-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.qualifiesDesc {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+}
+
+.qualifiesDesc svg {
+    height: 20px;
+}
+
+.qualifiesDesc p span {
+    text-decoration: underline;
+}
+
+.continue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 100px 0;
+}
+
+.continue button {
+    background-color: #3164f0;
+    width: 100%;
+    margin: 10px;
+    border-radius: 3px;
+    border: 0;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px;
+    height: auto;
+    color: white;
+}
+
+
+.feature-detail {
+    margin: 30px 0;
+}
+
+
+/* TOW */
+.tow-hitch {
+    margin: 17% 0 25% 0;
+}
+
+.towView {
+    width: 100%;
+    z-index: 1;
+}
+
+.tow-image {
+    height: 50%;
+    margin: 10% 0 0 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(124,0,0,1) 24%, rgba(43,0,0,1) 76%, rgba(0,0,0,1) 100%);
+}
+
+.tow-image img {
+    z-index: 3;
+    margin: 5% auto 0 auto;
+    width: 95%;
+}
+
+.tow-hitch-title {
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    margin: 7% 0 7% 0;
+}
+
+.tow-price {
+    text-align: center;
+    font-size: 13px;
+    margin: 0 0 13px 0;
+}
+
+.tow-desc {
+    text-align: center;
+    font-size: 13px;
+    margin: 0 40px 0 40px;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-button button {
+    font-weight: 600;
+    color: white;
+    background-color: #3164f0;;
+    border: 0;
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+    margin: 30px 0 10px 0;
+    font-size: 13px;
+}
+

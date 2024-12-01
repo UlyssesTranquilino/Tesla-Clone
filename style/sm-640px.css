@@ -1,0 +1,361 @@
+/* sm */
+@media (min-width: 640px) {
+    .order-img{
+        margin: 105px 0 30px 0;
+        width: 90%;
+        z-index: 1;
+    }
+
+    .order-image-car-bg {
+        background: radial-gradient(circle at center top, rgb(255, 39, 39) 5%, rgb(0, 0, 0) 85%);  width: 70%;
+        height: 140%;
+        width: 100%;
+        position: absolute;
+        transform: translateY(70px);
+    }
+    
+    .order-title {
+        font-size: 40px;
+    }
+
+    .car-speed .row {
+        width: 70%;
+        margin: 0 0 1% 0;
+    }
+
+    .car-speed div div p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .car-speed div div p:nth-child(2) {
+        font-size: 14px;
+    }
+
+
+    /* BUTTON MODELS */
+    .buttons-model {
+        width: 100%;
+    }
+
+    .buttons-model button {
+        width: 28%;
+        font-size: 14px;
+        padding: 10px 0 10px 0;
+    }
+
+    p.showCard-desc {
+        font-size: 14px;
+    }
+
+    .button-card-buttons {
+        font-size: 14px;
+    }
+
+    .feature-detail {
+        font-size: 14px;
+    }
+
+    .feature-detail button {
+        width: 180px;
+        height: 30px;
+    }
+    
+
+    /* SIDEVIEW */
+
+    .sideView {
+        width: 90%;
+        margin: 20% 0 0 0;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .car-sideView-bg {
+        width: 100%;
+        height: 25%;
+        z-index: 0;
+        position: absolute;
+        transform: translateY(10%);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(124,0,0,1) 64%, rgba(43,0,0,1) 86%, rgba(0,0,0,1) 100%);
+    }
+
+    /* CAR PAINT */
+    .paint-section {
+        margin: 35% 0 0 0;
+    }
+    
+    .title-paint {
+        font-size: 25px;
+    }
+
+    .paint-buttons button img {
+        width: 55px;
+    }
+
+    .paint-title-name p {
+        font-size: 14px;
+    }
+    
+    /* WHEEL */
+    .car-Wheel {
+        width: 100%;
+        height: 45%;
+    }
+
+    .wheel-title {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .wheel-desc p{
+        font-size: 14px;
+    }
+
+    .wheel-buttons button img{
+        width: 60px;
+    }
+
+    .learn-more button{
+        font-size: 13px;
+        width: 160px;
+        height: 30px;
+        margin: 0 0 -10% 0;
+    }
+
+    .car-Wheel img{
+        float: right;
+        width: 77%;
+    } 
+
+    /* INTERIOR */
+    .interior {
+        margin: 20% 0 0 0;
+    }
+
+    .interior .interior-title {
+        font-size: 25px;
+    }
+
+    .intorior-desc .interior-desc p{
+        font-size: 14px;
+    }
+
+    .feature-details button {
+        width: 180px;
+        height: 30px;
+    }
+
+    /* SELF DRIVING */
+    .self-driving-title h2 {
+        font-size: 25px;
+    }
+
+    .self-driving p {
+        font-size: 13px;
+    }
+
+    .self-driving li {
+        font-size: 13px;
+    }
+
+    .self-driving-desc .buttons button {
+        width: 170px;
+        height: 30px;
+    }
+
+    /* CHARGING */
+
+    .svg-icon {
+        width: 28px;
+        margin: 5px 5px 5px 2px;
+    }
+
+    
+    .charging-title {
+        font-size: 25px;
+    }
+
+    .charging p, .charging-check-box {
+        font-size: 14px;
+    }
+
+    .charging .learn-more button {
+        width: 150px;
+        height: 30px;
+    }
+
+    /*ACCESSORIES*/
+    .accessories .accessories-title{
+        font-size: 25px;
+    }
+
+    .accessories .learn-more button{
+        width: 150px;
+        height: 30px;
+    }
+
+    /*ORDER YOUR CAR*/
+    .order-your-car {
+        font-size: 14px;
+    }
+    .order-your-car .order-now-title {
+        font-size: 25px;
+    }
+
+    .order-your-car .continue button {
+        height: 35px;
+    }
+
+    /* TOW */
+    .tow-hitch-title {
+        font-size: 25px;
+    }
+
+    .tow-image {
+        height: 55%;
+        margin: 10% 0 0 0;
+    }
+
+    .tow-price, .tow-desc {
+        font-size: 14px;
+    }
+
+    .tow-hitch .add-button button {
+        width: 160px;
+        height: 30px;
+    }
+
+
+    /* HOME PAGE */
+
+    .home-car img {
+        width: 93%;
+      }
+
+
+    .company-name {
+        margin: 30px 0;
+        font-size: 40px;
+    }
+    .company-desc {
+        font-size: 13px;
+        padding: 0 100px;
+      }
+      
+      .view-cars {
+        font-size: 13px;
+        padding: 5px 35px;
+        width: 230px;
+      }
+
+    .vehicle {
+        height: 1050px;
+        width: 100%;
+      }
+
+      .car-cards {
+        height: 1050px;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        z-index: 0;
+      }
+
+      .car-bg-floor {
+        height: 70%;
+        margin: 670px 0;
+        position: relative;
+      }
+
+      .wall-effect {
+        height: 200px;
+        width: 90px;
+        background-color: red;
+        margin: 0px 0 0 50px;
+        top: 420px;
+        position: absolute;
+        z-index: 1;
+        mix-blend-mode: darken;
+      }
+      
+
+
+
+      .car-button {
+        margin: 19px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        transform: translateY(30px);
+      }
+      
+      .car-button button {
+        border: 0;
+        width: 270px;
+        height: 37px;
+        border-radius: 3px;
+        margin: 10px;
+        font-size: 14px;
+        padding: 5px 10px;
+        font-weight: 600;
+        font-family: montserrat;
+      }
+
+
+
+      .wall-effect {
+        height: 200px;
+        width: 110px;
+        background-color: rgb(255, 0, 0);
+        margin: 0px 0 0 50px;
+        top: 420px;
+      }
+
+
+      .text-bg {
+        width: 550px;
+        height: 140px;
+        font-size: 50px;
+        margin: 535px 0;
+        transform: scale(2.8);
+        text-align: center;
+        color: white;
+        letter-spacing: 5px;
+      }
+      
+
+      .text-bg-text {
+        position: absolute;
+        top: 0px;
+        left: 100%; /* Start position */
+        width: 100%;
+        height: 100%;
+      }
+
+      
+
+      .top-title-car {
+        transform: translateY(-530px);
+      }
+
+      .car-model-name {
+        font-size: 40px;
+      }
+
+      .car-price p:nth-child(1) {
+        font-size: 20px;
+      }
+
+      .car-price p:nth-child(2) {
+        font-size: 15px;
+      }
+
+      
+} 

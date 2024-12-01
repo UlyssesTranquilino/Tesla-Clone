@@ -544,7 +544,7 @@ const ModelY = () => {
           </div>
         </div>
 
-        <div ref={imageBoxRef} className="row model-y-eight-section">
+        {/* <div ref={imageBoxRef} className="row model-y-eight-section">
           <div className="">
             <div className="scrollEffect-wrapper">
               <div className="current-scroll-image-trigger">
@@ -583,6 +583,47 @@ const ModelY = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div> */}
+        <div className=" pt-5 engineer-safety model-y-eight bg-white text-black">
+          <div className="mb-5 during-the-day-container">
+            <div>
+              <img
+                src={WhileYouSleep}
+                className="h-10 mb-5 rounded OnRoadTripsImg"
+              />
+              <h1 className="mb-2">While You Sleep</h1>
+              <p>
+                Charge at home with Wall Connector and add up to 44 miles of
+                range per hour.
+              </p>
+            </div>
+          </div>
+          <div className="while-you-sleep-container">
+            <img
+              src={DuringTheDay}
+              className="h-10 mb-5 rounded OnRoadTripsImg"
+            />
+            <div>
+              <h1 className="mb-2">During the Day</h1>
+              <p>
+                Plug Mobile Connector in to any standard outlet and add up to 30
+                miles of range per hour.
+              </p>
+            </div>
+          </div>
+          <div className="onRoad-Trip-container">
+            <img
+              src={OnRoadTrips}
+              className="h-10 mb-5 rounded OnRoadTripsImg"
+            />
+            <div>
+              <h1 className="mb-2">On Road Trips</h1>
+              <p>
+                Add up to 170 miles of range in just 15 minutes at a
+                Supercharger along your route or recharge at your destination.
+              </p>
             </div>
           </div>
         </div>

@@ -15,6 +15,7 @@ import "./Model Y Responsive/modelY-xs-475.css";
 import "./Model Y Responsive/modelY-sm-640.css";
 import "./Model Y Responsive/modelY-md-768.css";
 import "./Model Y Responsive/modelY-lg-992.css";
+import "./Model Y Responsive/modelY-xl-1280.css";
 
 //Video Clips
 import vidNoAccident from "../../../car/Images/Model Y/Model Y No Accident.webm";
@@ -586,9 +587,9 @@ const ModelY = () => {
             </div>
           </div>
         </div> */}
-        <div className=" pt-5 engineer-safety model-y-eight bg-white text-black">
-          <div className="mb-5 during-the-day-container">
-            <div>
+        <div className=" pt-5 engineer-safety d-flex justify-content-center align-items-center bg-white text-black">
+          <div className="model-y-eight-section">
+            <div className="mb-5 during-the-day-container">
               <img
                 src={WhileYouSleep}
                 className="h-10 mb-5 rounded OnRoadTripsImg"
@@ -599,36 +600,36 @@ const ModelY = () => {
                 range per hour.
               </p>
             </div>
-          </div>
-          <div className="while-you-sleep-container">
-            <img
-              src={DuringTheDay}
-              className="h-10 mb-5 rounded OnRoadTripsImg"
-            />
-            <div>
-              <h1 className="mb-2">During the Day</h1>
-              <p>
-                Plug Mobile Connector in to any standard outlet and add up to 30
-                miles of range per hour.
-              </p>
+            <div className="while-you-sleep-container">
+              <img
+                src={DuringTheDay}
+                className="h-10 mb-5 rounded OnRoadTripsImg"
+              />
+              <div>
+                <h1 className="mb-2">During the Day</h1>
+                <p>
+                  Plug Mobile Connector in to any standard outlet and add up to
+                  30 miles of range per hour.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="onRoad-Trip-container">
-            <img
-              src={OnRoadTrips}
-              className="h-10 mb-5 rounded OnRoadTripsImg"
-            />
-            <div>
-              <h1 className="mb-2">On Road Trips</h1>
-              <p>
-                Add up to 170 miles of range in just 15 minutes at a
-                Supercharger along your route or recharge at your destination.
-              </p>
+            <div className="onRoad-Trip-container">
+              <img
+                src={OnRoadTrips}
+                className="h-10 mb-5 rounded OnRoadTripsImg"
+              />
+              <div>
+                <h1 className="mb-2">On Road Trips</h1>
+                <p>
+                  Add up to 170 miles of range in just 15 minutes at a
+                  Supercharger along your route or recharge at your destination.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="row model-y-ninth-section room-for-everything-container">
+        <div className="row model-y-ninth-section  room-for-everything-container">
           <div className="vid-background-ninth d-flex justify-content-center align-items-center">
             <video
               key="roomEverything"

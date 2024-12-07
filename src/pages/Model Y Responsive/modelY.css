@@ -388,8 +388,9 @@
 }
 
 /* 8TH SECTION */
-.model-y-eight {
-  height: 195vh;
+.model-y-eight-section {
+  height: auto;
+  padding-bottom: 10%;
 }
 
 .OnRoadTripsImg {
@@ -403,6 +404,9 @@
 } */
 
 /* NINTH SECTION */
+.model-y-ninth-section {
+  margin-top: 350px;
+}
 .room-for-everything-container {
   border: 2px solid red;
   height: 80vh;

@@ -330,4 +330,28 @@
   .model-y-seventh-section .engineer-safety p {
     padding-right: 40%;
   }
+
+  /* EIGHT SECTION */
+  .model-y-eight-section {
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .during-the-day-container {
+    width: 220px;
+  }
+
+  .OnRoadTripsImg {
+    width: 220px;
+  }
+
+  .while-you-sleep-container {
+    width: 220px;
+  }
+
+  .onRoad-Trip-container {
+    width: 220px;
+  }
 }

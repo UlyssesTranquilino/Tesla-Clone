@@ -1,7 +1,30 @@
 /* xl */
 @media (min-width: 1280px) {
-    .home-car img {
-        width: 70%;
-      }
+  .home-car {
+    transform: translateY(-250px);
+  }
+  .home-car img {
+    width: 100%;
+    max-width: 950px;
+  }
 
+  .car-button {
+    transform: translateY(-270px);
+  }
+
+  .text-bg {
+    height: 50px;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 475px 0;
+    transform: scale(3.9);
+    text-align: center;
+    color: white;
+    font-family: "Michroma", sans-serif;
+    -webkit-text-stroke: 3px;
+    z-index: 0;
+    letter-spacing: 5px;
+    position: relative;
+    bottom: 490px;
+  }
 }

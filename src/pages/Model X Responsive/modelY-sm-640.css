@@ -1,0 +1,322 @@
+@media (min-width: 640px) {
+  /* FIRST SECTION */
+
+  .model-y-main {
+    background-image: url("../../../Images/Model Y/Model Y Main.png");
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 0 0 20px 0;
+  }
+
+  .main-title h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  .main-title h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .main-title h3 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .desc-badges {
+    width: 540px;
+  }
+
+  .desc-badges h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .desc-badges .col {
+    margin: 1%;
+  }
+
+  .desc-badges h3 {
+    font-size: 13px;
+  }
+
+  .button-badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .button-badges button:nth-child(1) {
+    width: 260px;
+    height: 40px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 90, 255);
+    margin: 0 13px 10px 13px;
+    font-size: 85%;
+  }
+
+  .button-badges button:nth-child(2) {
+    width: 260px;
+    height: 40px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 0 13px 10px 13px;
+    font-size: 85%;
+  }
+
+  /* SECOND SECTION */
+  .model-y-second-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .model-y-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-second {
+    width: 85%;
+    margin: 100px 0 10px 0;
+  }
+
+  .engineer-safety {
+    padding: 40px 8% 0 7%;
+    font-size: 85%;
+  }
+
+  .engineer-safety h1 {
+    font-size: 170%;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    padding: 0 20% 0 0;
+  }
+
+  /*THIRD SECTION */
+  .model-y-third-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 0 0 0;
+    padding: 0 0 40px 0;
+  }
+
+  .model-y-third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .background-no-accident {
+    width: 85%;
+  }
+
+  /*FOURTH SECTION*/
+  .model-y-fourth-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../Images/Model Y/Model Y Go Anywhere Mobile.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    margin: 40px 0 0 0;
+  }
+
+  .model-y-fourth-section {
+    padding: 60px 0 0 0;
+  }
+
+  .model-y-fourth-section .engineer-safety h1 {
+    font-weight: 650;
+  }
+
+  .model-y-fourth-section .engineer-safety p {
+    font-weight: 500;
+  }
+
+  /*FIFTH SECTION */
+  .model-y-fifth-section {
+    height: auto;
+    margin: 10% 0 10% 0;
+  }
+
+  .model-y-fifth {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardMaps h3 {
+    font-size: 90%;
+    font-weight: 550;
+  }
+
+  .cardMaps h1 {
+    font-size: 130%;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+
+  .line {
+    width: 95%;
+    height: 3px;
+  }
+
+  .active-screen-vid {
+    height: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 85%;
+  }
+
+  .active-screen-vid video {
+    width: 140%;
+  }
+
+  .horizontal-slide-container {
+    margin: 10% auto 0 auto;
+    width: 85%;
+    overflow: hidden;
+  }
+
+  .slide-cards {
+    display: flex;
+    width: 210%;
+  }
+
+  /*SIXTH SECTION*/
+  .model-y-sixth-section {
+    margin: 150px 0;
+  }
+
+  .model-y-sixth-section .engineer-safety {
+    padding: 0 7% 0 7%;
+  }
+
+  .model-y-sixth-section .engineer-safety p {
+    padding: 0;
+  }
+
+  .zip-code p {
+    margin: 0 0 5px;
+  }
+
+  .zip-code input {
+    width: 300px;
+    background-color: rgb(36, 36, 36);
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+  }
+
+  .img-order-container {
+    margin: 40px 0 50px 0;
+    padding: 0;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+    padding: 0 7% 0 7%;
+  }
+
+  .img-order-model-y {
+    padding: 0;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .zip-code .order-modely-button {
+    width: 300px;
+    margin: 140px 0 50px 0;
+    height: 40px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 90, 255);
+    font-size: 85%;
+    display: block;
+  }
+
+  .img-order-container .order-modely-button {
+    width: 300px;
+    margin: 10px 0 50px 0;
+    height: 40px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 90, 255);
+    font-size: 85%;
+    display: none;
+  }
+
+  /*SEVENTH SECTION*/
+  .model-y-seventh-section {
+    height: 100vh;
+    margin: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .model-y-seventh-section .vid-background-seventh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .model-y-seventh-section .vid-background-seventh video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding: 0;
+  }
+
+  .model-y-seventh-section .engineer-safety {
+    padding: 0 10% 80px 10%;
+    position: absolute;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
+  }
+
+  .model-y-seventh-section .engineer-safety h1 {
+    padding-right: 0;
+  }
+
+  .model-y-eight-section {
+    padding-bottom: 25%;
+  }
+}

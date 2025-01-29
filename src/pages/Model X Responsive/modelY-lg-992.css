@@ -1,0 +1,357 @@
+@media (min-width: 992px) {
+  /* FIRST SECTION */
+
+  .model-y-main {
+    background-image: url("../../../Images/Model Y/Model Y Main.png");
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 0 0 20px 0;
+  }
+
+  .main-title h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  .main-title h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .main-title h3 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .desc-badges {
+    width: 540px;
+  }
+
+  .desc-badges h2 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .desc-badges .col {
+    margin: 1%;
+  }
+
+  .desc-badges h3 {
+    font-size: 13px;
+  }
+
+  .button-badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .button-badges button:nth-child(1) {
+    width: 260px;
+    height: 40px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 90, 255);
+    margin: 0 13px 10px 13px;
+    font-size: 88%;
+  }
+
+  .button-badges button:nth-child(2) {
+    width: 260px;
+    height: 40px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 0 13px 10px 13px;
+    font-size: 88%;
+  }
+
+  /* SECOND SECTION */
+  .model-y-second-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 100px 0;
+    padding: 0 10% 0 10%;
+    font-size: 85%;
+  }
+
+  .second-section-desc .engineer-safety p {
+    padding: 0 40% 0 0;
+  }
+
+  .model-y-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-second {
+    width: 90%;
+    margin: 100px 0 10px 0;
+  }
+
+  .engineer-safety {
+    padding: 40px 10% 0 5%;
+    font-size: 85%;
+  }
+
+  .engineer-safety h1 {
+    font-size: 170%;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    padding: 0 20% 0 0;
+  }
+
+  /*THIRD SECTION */
+  .model-y-third-section {
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 85%;
+    padding: 0 15% 0 14%;
+    margin: 0 0 5% 0;
+  }
+
+  .model-y-third-section .engineer-safety {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .model-y-third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .third-section-desc h1 {
+    margin: 0 0 15px 0;
+  }
+
+  .background-no-accident {
+    width: 100%;
+    margin: 0 0 0 5%;
+  }
+
+  .third-section-desc {
+    width: 70%;
+  }
+
+  /*FOURTH SECTION*/
+  .model-y-fourth-section {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../Images/Model Y/Model Y Go Anywhere.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    margin: 0px 0 0 0;
+  }
+
+  .model-y-fourth-section {
+    padding: 130px 0 0 0;
+  }
+
+  .model-y-fourth-section .engineer-safety {
+    padding: 0 20% 0 14%;
+  }
+
+  .model-y-fourth-section .engineer-safety h1 {
+    font-weight: 650;
+    margin: 0 0 25px 0;
+  }
+
+  .model-y-fourth-section .engineer-safety p {
+    font-weight: 500;
+  }
+
+  /*FIFTH SECTION */
+  .model-y-fifth-section {
+    height: auto;
+    margin: 10% 0 10% 0;
+    padding: 0 7% 0 7%;
+  }
+
+  .model-y-fifth {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardMaps h3 {
+    font-size: 90%;
+    font-weight: 550;
+    padding: 0 20% 0 0;
+  }
+
+  .cardMaps h1 {
+    font-size: 140%;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+
+  .line {
+    width: 83%;
+    padding: 0 10% 0 0;
+    height: 3px;
+  }
+
+  .active-screen-vid {
+    height: 65%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 85%;
+  }
+
+  .active-screen-vid video {
+    width: 100%;
+  }
+
+  .horizontal-slide-container {
+    margin: 5% auto 0 auto;
+    width: 85%;
+    overflow: hidden;
+  }
+
+  .slide-cards {
+    display: flex;
+    width: 100%;
+  }
+
+  .cardMaps {
+    width: 100%;
+    height: 160px;
+    font-size: 110%;
+    cursor: pointer;
+  }
+
+  /*SIXTH-SECTION*/
+  .model-y-sixth-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .model-y-sixth-section .engineer-safety {
+    width: 40%;
+    padding: 0 0 0 11%;
+  }
+
+  .img-order-container {
+    width: 55%;
+    margin: 0;
+    padding: 0 10% 0 3%;
+  }
+
+  .zip-code input {
+    width: 200px;
+    background-color: rgb(36, 36, 36);
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+  }
+
+  .zip-code .order-modely-button {
+    width: 200px;
+    margin: 40px 0 50px 0;
+    height: 40px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 90, 255);
+    font-size: 85%;
+    display: block;
+  }
+
+  /*SEVENTH SECTION*/
+  .model-y-seventh-section {
+    height: 100vh;
+    margin: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 113%;
+  }
+
+  .model-y-seventh-section .vid-background-seventh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .model-y-seventh-section .vid-background-seventh video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding: 0;
+  }
+
+  .model-y-seventh-section .engineer-safety {
+    padding: 0 10% 80px 10%;
+    position: absolute;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
+  }
+
+  .model-y-seventh-section .engineer-safety h1 {
+    padding-right: 0;
+  }
+  .model-y-seventh-section .engineer-safety p {
+    padding-right: 40%;
+  }
+
+  /* EIGHT SECTION */
+  .model-y-eight-section {
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .during-the-day-container {
+    width: 220px;
+  }
+
+  .OnRoadTripsImg {
+    width: 220px;
+  }
+
+  .while-you-sleep-container {
+    width: 220px;
+  }
+
+  .onRoad-Trip-container {
+    width: 220px;
+  }
+}

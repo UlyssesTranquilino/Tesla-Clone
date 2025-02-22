@@ -17,19 +17,19 @@ import "./Model Y Responsive/modelY-md-768.css";
 import "./Model Y Responsive/modelY-lg-992.css";
 
 //Video Clips
-import vidNoAccident from "../../../car/Images/Model Y/Model Y No Accident.webm";
+import vidNoAccident from "../../Images/Model Y/Model Y No Accident.webm";
 
 //Carousel Clips
-import LosAngelesToLasVegas from "../../../car/Images/Model Y/LosAngeles to LasVegas.mp4";
-import SantaCruzToLakeTahoe from "../../../car/Images/Model Y/Santa Cruz to Lake Tahoe.mp4";
-import GrandCanyonToPhoenix from "../../../car/Images/Model Y/Grand Canyon to Phoenix.mp4";
-import ChicagoToDetriot from "../../../car/Images/Model Y/Chicago to Detriot.mp4";
-import MiamaToTampa from "../../../car/Images/Model Y/Miama to Tampa.mp4";
+import LosAngelesToLasVegas from "../../Images/Model Y/LosAngeles to LasVegas.mp4";
+import SantaCruzToLakeTahoe from "../../Images/Model Y/Santa Cruz to Lake Tahoe.mp4";
+import GrandCanyonToPhoenix from "../../Images/Model Y/Grand Canyon to Phoenix.mp4";
+import ChicagoToDetriot from "../../Images/Model Y/Chicago to Detriot.mp4";
+import MiamaToTampa from "../../Images/Model Y/Miama to Tampa.mp4";
 
 //Scroll Images
-import WhileYouSleep from "../../../car/Images/Model Y/Mobile - Model Y While You Sleep.png";
-import DuringTheDay from "../../../car/Images/Model Y/Mobile - Model Y During the Day.png";
-import OnRoadTrips from "../../../car/Images/Model Y/Mobile - Model Y On Road Trips.png";
+import WhileYouSleep from "../../Images/Model Y/Mobile - Model Y While You Sleep.png";
+import DuringTheDay from "../../Images/Model Y/Mobile - Model Y During the Day.png";
+import OnRoadTrips from "../../Images/Model Y/Mobile - Model Y On Road Trips.png";
 
 //CHARGE EVERYWHERE (SEVENTH SECTION)
 import ModelYChargeMobile from "../../Images/Model Y/Model-Y-Charge-Mobile.webm";

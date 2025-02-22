@@ -23,20 +23,20 @@ import "../components/GsapAnimations/Model3Gsap.js";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-import videoFile from "../../../car/Images/Model 3/Two New Colors.mp4";
-import videoFile2 from "../../../car/Images/Model 3/Upgraded Wheels.webm";
-import videoFile3 from "../../../car/Images/Model 3/Model Interior Larger.webm";
+import videoFile from "../../Images/Model 3/Two New Colors.mp4";
+import videoFile2 from "../../Images/Model 3/Upgraded Wheels.webm";
+import videoFile3 from "../../Images/Model 3/Model Interior Larger.webm";
 
-import vidPremiumMaterials from "../../../car/Images/Model 3/Premium Materials.mp4";
-import vidSublimeSound from "../../../car/Images/Model 3/Sublime Sound.webm";
-import vidRearDisplay from "../../../car/Images/Model 3/Rear Display.webm";
-import vidVentilatedSeats from "../../../car/Images/Model 3/Ventilated Seats.webm";
-import vidWirelessCharging from "../../../car/Images/Model 3/Wireless Charging.webm";
+import vidPremiumMaterials from "../../Images/Model 3/Premium Materials.mp4";
+import vidSublimeSound from "../../Images/Model 3/Sublime Sound.webm";
+import vidRearDisplay from "../../Images/Model 3/Rear Display.webm";
+import vidVentilatedSeats from "../../Images/Model 3/Ventilated Seats.webm";
+import vidWirelessCharging from "../../Images/Model 3/Wireless Charging.webm";
 
 //Ninth Section Images
-import Slide1Charging from "../../../car/Images/Model 3/Model-3-Charging-Slide-1-Desktop.png";
-import Slide2Charging from "../../../car/Images/Model 3/Model-3-Charging-Slide-2-Desktop.png";
-import Slide3Charging from "../../../car/Images/Model 3/Model-3-Charging-Slide-3-Desktop.png";
+import Slide1Charging from "../../Images/Model 3/Model-3-Charging-Slide-1-Desktop.png";
+import Slide2Charging from "../../Images/Model 3/Model-3-Charging-Slide-2-Desktop.png";
+import Slide3Charging from "../../Images/Model 3/Model-3-Charging-Slide-3-Desktop.png";
 
 import { Carousel } from "react-bootstrap";
 
